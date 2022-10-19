@@ -1,19 +1,21 @@
 #include <stdio.h>
-
+#include "main.h"
 /**
-*main-prints the alphabet, in lowercase
+*main-_putchar.c
 *Return:Always 0
 */
 
-void print_alphabet('a'- 'z')
+void print_alphabet(void)
 {
 	char = 'x'
 	x = 'a'
-	for (x = 'a', x <= 'z', x++);
-	while (x <= z)
-	{		putchar("%d\n", x);
-		x++;
+	
+	for (x = 'a'; x <= 'z'; x++);
+	while (x <= z)	
+	{
+	putchar("%d\n", x);
+	x++;
 	}
-	print_alphabet('a-z');	
+	print_alphabet('a' - 'z');	
 	return (0);
 }
