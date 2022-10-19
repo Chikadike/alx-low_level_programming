@@ -9,13 +9,11 @@ void print_alphabet(void)
 {
 	char = 'x'
 	x = 'a'
-	
-	for (x = 'a'; x <= 'z'; x++);
-	while (x <= z)	
+	while (x <= z)
 	{
 	putchar("%d\n", x);
 	x++;
 	}
-	print_alphabet('a' - 'z');	
+	print_alphabet('a' - 'z')
 	return (0);
 }
