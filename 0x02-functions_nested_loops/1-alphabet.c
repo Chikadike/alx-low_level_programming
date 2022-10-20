@@ -1,19 +1,17 @@
 #include <stdio.h>
 #include "main.h"
 /**
-*main-_putchar.c
+*main-prints the alphabet, in lowercase,
 *Return:Always 0
 */
 
 void print_alphabet(void)
 {
-	char = 'x'
-	x = 'a'
-	while (x <= z)
-	{
-	putchar("%d\n", x);
-	x++;
-	}
-	print_alphabet('a' - 'z')
-	return (0);
+int  i;
+for (i = 'a'; i <= 'z'; i++)
+{
+_putchar(i)
 }
+_putchar('\n')
+}
+
