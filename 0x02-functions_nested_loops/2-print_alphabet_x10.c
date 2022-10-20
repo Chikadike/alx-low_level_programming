@@ -11,11 +11,11 @@ char i, k;
 for  (k = 0; k < 10; k++)
 {
 
-for (i = 'a',i <= 'z'; i++)
+for (i = 'a';i <= 'z'; i++);
 {
 	_putchar(i);
 }
-	_putchar('\n')
+	_putchar('\n');
 }
 }
 #include "main.h"
