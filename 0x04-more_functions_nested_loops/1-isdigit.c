@@ -1,4 +1,4 @@
-include "main.h"
+#include "main.h"
 
 /**
 *_isdigit- checks if a char is a digit
@@ -7,9 +7,10 @@ include "main.h"
 */
 int _isdigit(int c)
 {
-	int y = 0;
+if (c >= '0' && c <= '9')
 
-	if (c >= '0' && c <= '9')
-
-	return (y);
+return (1);
+else
+return (0);
 }
+
