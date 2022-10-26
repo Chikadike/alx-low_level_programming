@@ -1,17 +1,27 @@
 #include "main.h"
+#include <unistd.h>
+
 
 /**
-* main - check the code
+* print_alphabet_x10 - check the code.
 * Return: Always 0.
 */
 
-
-int main(void)
-
+void print_alphabet_x10(void)
 {
 
-print_alphabet();
+int i, j;
 
-return (0);
+for (i = 0; i <= 9; i++)
+{
+
+for (j = 'a'; j <= 'z'; j++)
+{
+_putchar(j);
+
+}
+_putchar('\n');
+
+}
 
 }
