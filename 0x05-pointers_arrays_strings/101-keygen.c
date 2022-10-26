@@ -21,7 +21,9 @@ p[i] = c[j];
 s += c[j];
 i++;
 }
-while (c[k] == (2772 - s))
+while (c[k])
+{ 
+if (c[k] == (2772 - s))
 {
 p[i] = c[k];
 s += c[k];
