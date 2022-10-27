@@ -1,27 +1,23 @@
 #include "main.h"
-#include <stddef.h>
+
 
 /**
-* _strcat - Entry point
-* @dest: destination variable
-* @src: source variable
-* Return: Always 0 (success)
+* _strncat - function to concartenate two strings
+* @dest: variable to hold the first string.
+* @src: variable to hold second string.
+* @n: variable to hold limit to impose on the second string.
+* Return: Always 0 (success).
 */
 
-char *_strcat(char *dest, char *src)
+
+char *_strncat(char *dest, char *src, int n)
+
 {
-
-/*declear index to store conuting in loops*/
-
-/*declear dest_len variable to hold the value of destination length*/
 
 int index, dest_len;
 
 index = dest_len = 0;
 
-
-
-/*this while loop loops through dest to get dest length*/
 
 while (dest[index++])
 
@@ -29,11 +25,16 @@ dest_len++;
 
 
 
-/*this for loop does appending of the strings while src is not null*/
-
-for (index = 0; src[index]; index++)
+for (index = 0; src[index] && index < n; index++)
 
 dest[dest_len++] = src[index];
 
+
+
 return (dest);
+
+/*The only difference with the first code is the n condition*/
+
 }
+
+
