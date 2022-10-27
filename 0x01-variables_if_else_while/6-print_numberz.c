@@ -1,19 +1,25 @@
 #include <stdio.h>
+#include <stdlib.h>
+
 
 /**
-*main-program entry point.
-*Return:0 no error,non zero if  error.
-**/
+* main - Entry point
+* Return: Always 0 (Success)
+*/
+
 int main(void)
 {
-char i;
-if i <= 10
-
+int i;
+for (i = '0'; i <= '9'; i++)
 {
+
 putchar(i);
-}
-putchar('\n');
-return (0);
+
 }
 
+putchar('\n');
+
+return (0);
+
+}
 
