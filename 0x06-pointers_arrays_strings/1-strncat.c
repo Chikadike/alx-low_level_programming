@@ -8,10 +8,7 @@
 * Return: Always 0 (success)
 */
 
-
-
 char *_strcat(char *dest, char *src)
-
 {
 
 /*declear index to store conuting in loops*/
@@ -38,8 +35,5 @@ for (index = 0; src[index]; index++)
 
 dest[dest_len++] = src[index];
 
-
-
 return (dest);
-
 }
