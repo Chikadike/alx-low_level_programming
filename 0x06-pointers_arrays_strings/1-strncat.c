@@ -1,36 +1,45 @@
 #include "main.h"
+#include <stddef.h>
 
 /**
-* _strncpy - concatenate two strings
-*using at most n bytes from src
-* @dest: input value
-* @src: input value
-* @n: input value
-* Return: the pointer to dest.
+* _strcat - Entry point
+* @dest: destination variable
+* @src: source variable
+* Return: Always 0 (success)
 */
 
-char *_strncpy(char *dest, char *src, int n)
+
+
+char *_strcat(char *dest, char *src)
+
 {
 
-	int i;
-	int j;
+/*declear index to store conuting in loops*/
 
-	i = 0;
-	while (dest[1] != '\0')
-	{
-		i++;
-	}
-	j = 0;
-	while (j < n && src[j] != '\0')
-	{
-	dest[i] = src[j];
-	i++;
-	j++;
-	}
-	dest[i] = '\0';
+/*declear dest_len variable to hold the value of destination length*/
 
-	return (dest);
+int index, dest_len;
+
+index = dest_len = 0;
+
+
+
+/*this while loop loops through dest to get dest length*/
+
+while (dest[index++])
+
+dest_len++;
+
+
+
+/*this for loop does appending of the strings while src is not null*/
+
+for (index = 0; src[index]; index++)
+
+dest[dest_len++] = src[index];
+
+
+
+return (dest);
 
 }
-
-
