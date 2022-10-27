@@ -1,22 +1,33 @@
-#include <stdio.h>
+#include<stdio.h>
+#include <stdlib.h>
+
 
 /**
-*main-program entry point.
-*Return:0 no error,non zero if error.
+* main - Entry point
+* Return: Always 0 (Success)
 */
+
 int main(void)
 {
-int i;
-char hexvalues[] =
-"0123456789abcdef"
-
-for (i = '0'; i <= 'f'; i++);
+int y, x;
+for (x = '0'; x <= '9'; x++)
 
 {
-putchar(hexvalues[i]);
+
+putchar(x);
+
 }
+
+for (y = 'a'; y <= 'f'; y++)
+
+{
+
+putchar(y);
+
+}
+
 putchar('\n');
 
 return (0);
-}
 
+}
