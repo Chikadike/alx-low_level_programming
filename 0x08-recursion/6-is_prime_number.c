@@ -1,14 +1,10 @@
-#include "holberton.h"
+#include "main.h"
 
 /**
-
- * is_prime_number - func that returns 1 if a num is a prime num, 0 otherwise
-
- * @n: number for input
-
- * Return: 0
-
- */
+* is_prime_number - func that returns 1 if a num is a prime num, 0 otherwise
+* @n: number for input
+* Return: 0
+*/
 
 int is_prime_number(int n)
 
