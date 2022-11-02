@@ -3,7 +3,7 @@
 /**
 *_sqrt_recursion -  func that returns the natural square root of a number.
 * @n: for number input
-* Return: 0
+* Return: helper
 */
 
 int _sqrt_recursion(int n)
