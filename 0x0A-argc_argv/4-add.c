@@ -2,7 +2,7 @@
 
 #include <stdlib.h>
 
-#include "mainn.h"
+#include "main.h"
 
 /**
 * main - Entry Point
