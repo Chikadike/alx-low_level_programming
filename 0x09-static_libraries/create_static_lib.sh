@@ -2,7 +2,7 @@
 
 gcc -Wall -pedantic -Werror -Wextra -c *.c
 
-ar -rc liball.a *.o
+ar -rc libamy.a *.o
 
-ranlib liball.a
+ranlib libmy.a
 
