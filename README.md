@@ -1,1 +1,1 @@
-variables
+Static_libraries
