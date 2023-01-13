@@ -36,6 +36,5 @@ new->prev = tmp;
 new->next = tmp->next;
 tmp->next->prev = new;
 tmp->next = new;
-
 return (new);
 }
