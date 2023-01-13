@@ -27,4 +27,6 @@ head = head->next;
 
 }
 
+return (head);
 
+}
