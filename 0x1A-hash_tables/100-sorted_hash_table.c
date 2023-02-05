@@ -8,7 +8,7 @@
  */
 shash_table_t *shash_table_create(unsigned long int size)
 {
-	shash_table_t *sht
+	shash_table_t *sht;
 	unsigned long int i;
 
 
